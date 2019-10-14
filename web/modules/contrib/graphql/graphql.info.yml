@@ -1,0 +1,14 @@
+name: GraphQL
+type: module
+description: 'Base module for integrating GraphQL with Drupal.'
+package: GraphQL
+configure: graphql.config_page
+# core: 8.x
+dependencies:
+  - typed_data:typed_data
+
+# Information added by Drupal.org packaging script on 2019-07-24
+version: '8.x-4.0-alpha2'
+core: '8.x'
+project: 'graphql'
+datestamp: 1563979990
