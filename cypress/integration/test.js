@@ -6,7 +6,7 @@ describe('Ast test', function() {
         cy.get('input[name="name"]').type('ast_dev')
         cy.get('input[name="pass"]').type('asteste21')
 
-        cy.contains('Submit').click()
+        cy.get('input[name="op"]').click()
 
     })
 })
