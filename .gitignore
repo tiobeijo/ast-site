@@ -6,6 +6,10 @@
 /web/themes/contrib/
 /web/profiles/contrib/
 /web/libraries/
+web/
+
+# Ignore Node modules
+node_modules
 
 # Ignore sensitive information
 /web/sites/*/settings.php
