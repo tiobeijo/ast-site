@@ -1,4 +1,4 @@
-escribe('Ast login test', function() {
+Describe('Ast login test', function() {
     it('Visit Ast site', function() {
         cy.visit('ast.docker.local')
 
