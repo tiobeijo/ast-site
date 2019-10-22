@@ -1,4 +1,4 @@
-Projeto feito pela turma de desenvolvimento web para a criação do site da Ação Social Técnica - Escola Profissional Tio Beijo. Código aberto podendo ser usasdo por qualquer associação.
+Projeto feito pela turma de desenvolvimento web para a criação do site da Ação Social Técnica - Escola Profissional Tio Beijo. Código aberto podendo ser usado por qualquer associação.
 
 Requisitos necessários para rodar o projeto em sua máquina:
 
