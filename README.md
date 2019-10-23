@@ -7,3 +7,5 @@ Utilizar o comando "composer install" no make shell para a instalação do mesmo
 Link para a instalação do Cypress:
 
 https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements
+
+Nome de usuário e senha do drupal está dentro do teste do cypress. Caminho para o teste: cypress/integration/Tests/login.spec.js
