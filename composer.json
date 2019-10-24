@@ -26,6 +26,7 @@
     "drupal/core": "^8.7.0",
     "drupal/graphql": "^4.0@alpha",
     "drupal/pathauto": "^1.5",
+    "drupal/school_zymphonies_theme": "^1.1",
     "drush/drush": "^9.0.0",
     "vlucas/phpdotenv": "^2.4",
     "webflo/drupal-finder": "^1.0.0",
