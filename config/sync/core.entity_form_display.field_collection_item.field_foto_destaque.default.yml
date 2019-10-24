@@ -1,0 +1,24 @@
+uuid: c68c6b5a-3bac-401f-a64c-02d7d61aa1a3
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_foto_destaque.field_imagem_de_destaque
+    - field_collection.field_collection.field_foto_destaque
+    - image.style.thumbnail
+  module:
+    - image
+id: field_collection_item.field_foto_destaque.default
+targetEntityType: field_collection_item
+bundle: field_foto_destaque
+mode: default
+content:
+  field_imagem_de_destaque:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden: {  }

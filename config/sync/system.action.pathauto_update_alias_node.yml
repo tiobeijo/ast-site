@@ -1,0 +1,16 @@
+uuid: 875878a2-e124-4469-ad87-69eb5c291bd7
+langcode: pt-br
+status: true
+dependencies:
+  enforced:
+    module:
+      - node
+  module:
+    - pathauto
+_core:
+  default_config_hash: lno8QThS348UX-kaUsagJtCnuPHKLXYnTQiF_9HSDWA
+id: pathauto_update_alias_node
+label: 'Atualizar URL alternativa'
+type: node
+plugin: pathauto_update_alias
+configuration: {  }

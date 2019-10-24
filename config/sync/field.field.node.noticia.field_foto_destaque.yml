@@ -1,0 +1,21 @@
+uuid: da9e8a4b-6596-41ba-b1ed-8c71bdb49035
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_foto_destaque
+    - node.type.noticia
+  module:
+    - field_collection
+id: node.noticia.field_foto_destaque
+field_name: field_foto_destaque
+entity_type: node
+bundle: noticia
+label: 'Foto destaque'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_collection

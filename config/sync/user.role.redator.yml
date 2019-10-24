@@ -1,0 +1,9 @@
+uuid: f30e75dc-d9c7-48dc-876c-cb90e78f2a47
+langcode: pt-br
+status: true
+dependencies: {  }
+id: redator
+label: Redator
+weight: 3
+is_admin: null
+permissions: {  }

@@ -1,0 +1,19 @@
+uuid: 7624ad9d-0a00-451d-b935-f6e8bbbdd82c
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - field_collection
+    - node
+id: node.field_foto_destaque
+field_name: field_foto_destaque
+entity_type: node
+type: field_collection
+settings: {  }
+module: field_collection
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 35a1993d-e393-492c-8103-4663ab42c915
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - seven
+_core:
+  default_config_hash: QeZBeCilQfeET3GeW6ZtJkEiwROADTZktFgKWwPieD4
+id: seven_secondary_local_tasks
+theme: seven
+region: pre_content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Abas secundárias'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

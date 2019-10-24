@@ -1,0 +1,24 @@
+uuid: 4058dd99-84ce-4b6a-ac80-bf27563bc819
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_foto_destaque.field_imagem_de_destaque
+    - field_collection.field_collection.field_foto_destaque
+  module:
+    - image
+id: field_collection_item.field_foto_destaque.default
+targetEntityType: field_collection_item
+bundle: field_foto_destaque
+mode: default
+content:
+  field_imagem_de_destaque:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }
