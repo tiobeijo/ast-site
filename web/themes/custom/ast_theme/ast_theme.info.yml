@@ -1,0 +1,12 @@
+name: ast_theme
+type: theme
+description: 'My Awesome theme'
+package: ast
+core: 8.x
+libraries:
+  - ast_theme/global-styling
+ 
+base theme: school_zymphonies_theme
+
+regions:
+  content: Content
