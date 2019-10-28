@@ -5,7 +5,11 @@
         "This file is @generated automatically"
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     "content-hash": "8176ceb4d3494f9d3dfae63f296fb9d7",
+=======
+    "content-hash": "58a9d868b4b87e3d91e479951a8aa285",
+>>>>>>> ast theme created based on symphony theme
 =======
     "content-hash": "58a9d868b4b87e3d91e479951a8aa285",
 >>>>>>> ast theme created based on symphony theme
@@ -2962,6 +2966,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "drupal/pathauto",
             "version": "1.5.0",
             "source": {
@@ -2982,6 +2987,8 @@
             },
             "type": "drupal-module",
 =======
+=======
+>>>>>>> ast theme created based on symphony theme
             "name": "drupal/school_zymphonies_theme",
             "version": "1.1.0",
             "source": {
@@ -2999,12 +3006,16 @@
                 "drupal/core": "~8.0"
             },
             "type": "drupal-theme",
+<<<<<<< HEAD
+>>>>>>> ast theme created based on symphony theme
+=======
 >>>>>>> ast theme created based on symphony theme
             "extra": {
                 "branch-alias": {
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
+<<<<<<< HEAD
 <<<<<<< HEAD
                     "version": "8.x-1.5",
                     "datestamp": "1570828084",
@@ -3072,6 +3083,10 @@
                 "drupal": {
                     "version": "8.x-1.5",
                     "datestamp": "1537557481",
+=======
+                    "version": "8.x-1.1",
+                    "datestamp": "1546441380",
+>>>>>>> ast theme created based on symphony theme
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3084,6 +3099,7 @@
             ],
             "authors": [
                 {
+<<<<<<< HEAD
                     "name": "Berdir",
                     "homepage": "https://www.drupal.org/user/214652"
                 },
@@ -3113,6 +3129,8 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/token"
 =======
+=======
+>>>>>>> ast theme created based on symphony theme
                     "name": "zymphonies-team",
                     "homepage": "https://www.drupal.org/user/2280310"
                 }
@@ -3121,6 +3139,9 @@
             "homepage": "https://www.drupal.org/project/school_zymphonies_theme",
             "support": {
                 "source": "https://git.drupalcode.org/project/school_zymphonies_theme"
+<<<<<<< HEAD
+>>>>>>> ast theme created based on symphony theme
+=======
 >>>>>>> ast theme created based on symphony theme
             }
         },

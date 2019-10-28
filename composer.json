@@ -30,7 +30,7 @@
     "drupal/pathauto": "^1.5",
 =======
     "drupal/config_split": "^1.4",
-    "drupal/console": "^1.0.2",
+    "drupal/console": "~1.0",
     "drupal/core": "^8.7.0",
     "drupal/graphql": "^4.0@alpha",
     "drupal/school_zymphonies_theme": "^1.1",
