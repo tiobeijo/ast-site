@@ -1,0 +1,9 @@
+uuid: 562013ce-326b-433e-ac88-c5c81ccf48ac
+langcode: pt-br
+status: true
+dependencies: {  }
+id: redator
+label: Redator
+weight: 3
+is_admin: null
+permissions: {  }

@@ -1,0 +1,14 @@
+uuid: 7d7b5ec8-7c23-4da5-ac36-f45b123af4cf
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - user.role.redator
+  module:
+    - user
+id: user_add_role_action.redator
+label: 'Add the Redator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: redator

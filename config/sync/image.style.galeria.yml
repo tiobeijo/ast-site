@@ -1,0 +1,15 @@
+uuid: 125c2372-6d16-407f-bdef-df928af3b571
+langcode: pt-br
+status: true
+dependencies: {  }
+name: galeria
+label: Galeria
+effects:
+  de8f240e-e7b5-447d-8f71-4bc89c9332ed:
+    uuid: de8f240e-e7b5-447d-8f71-4bc89c9332ed
+    id: image_scale
+    weight: 0
+    data:
+      width: 1280
+      height: 720
+      upscale: true
