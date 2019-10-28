@@ -1,0 +1,8 @@
+# global styling
+global-styling:
+  Version: 1.x
+  css:
+    theme:
+      css/global.css: {}
+      css/media.css: {}
+  
