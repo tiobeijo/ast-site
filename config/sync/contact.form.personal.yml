@@ -1,0 +1,13 @@
+uuid: 507cb63b-bc11-494a-a7da-b016f787dede
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Formulário de contato pessoal'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Sua mensagem foi enviada.'
+redirect: ''

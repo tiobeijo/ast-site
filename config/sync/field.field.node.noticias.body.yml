@@ -1,0 +1,22 @@
+uuid: 28f636a7-2375-4af3-bc73-1fcd132ec198
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.noticias
+  module:
+    - text
+id: node.noticias.body
+field_name: body
+entity_type: node
+bundle: noticias
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

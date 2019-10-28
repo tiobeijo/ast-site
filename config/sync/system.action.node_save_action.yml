@@ -1,0 +1,13 @@
+uuid: db706ecb-71f2-4c9e-8038-25abdc1543ab
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: LhdsoZPL_pFas2fjaAWue4zvrQ_tEVofLYtcNec-JGM
+id: node_save_action
+label: 'Salvar conteúdo'
+type: node
+plugin: 'entity:save_action:node'
+configuration: {  }
