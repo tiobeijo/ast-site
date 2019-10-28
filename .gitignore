@@ -6,7 +6,6 @@
 /web/themes/contrib/
 /web/profiles/contrib/
 /web/libraries/
-web/
 
 # Ignore Node modules
 node_modules
@@ -36,3 +35,6 @@ docker/database/data/*
 
 # Ignore docker override.yml
 docker-compose.override.yml
+
+# Ignore log
+*.log
