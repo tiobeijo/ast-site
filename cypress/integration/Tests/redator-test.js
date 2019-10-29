@@ -3,7 +3,7 @@ describe('redator login test', function() {
         cy.visit('ast.docker.local')
 
         cy.contains('Entrar').click()
-        cy.get('input[name="name"]').type('redator')
+        cy.get('input[name="name"]').type('Redator')
         cy.get('input[name="pass"]').type('asteste21')
         cy.get('input[name="op"]').click()
         cy.contains('Adicionar conteúdo').click()
