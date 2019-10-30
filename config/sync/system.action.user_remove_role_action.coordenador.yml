@@ -1,0 +1,14 @@
+uuid: 925b1673-5a6b-447d-86ab-04e9a78243b7
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - user.role.coordenador
+  module:
+    - user
+id: user_remove_role_action.coordenador
+label: 'Remove the Coordenador role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: coordenador

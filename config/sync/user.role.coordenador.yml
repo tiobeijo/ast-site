@@ -1,0 +1,9 @@
+uuid: a76b33ac-9235-46f8-b297-d0d0b1cbcf4e
+langcode: pt-br
+status: true
+dependencies: {  }
+id: coordenador
+label: Coordenador
+weight: 3
+is_admin: null
+permissions: {  }

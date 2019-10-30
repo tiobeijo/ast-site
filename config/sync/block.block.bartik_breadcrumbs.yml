@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 uuid: 4058ef03-5af2-48e1-b4bf-a6b9adcba094
+=======
+uuid: b385d632-23fc-48ea-9103-3be4ac68da1d
+>>>>>>> add coordenador role and content type cursos
 langcode: pt-br
 status: true
 dependencies:

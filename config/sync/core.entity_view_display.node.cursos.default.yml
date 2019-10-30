@@ -1,0 +1,49 @@
+uuid: 0495c7bc-af0f-43f5-b537-88c5f58c1108
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.cursos.body
+    - field.field.node.cursos.field_imagem_de_destaque
+    - field.field.node.cursos.field_requisitos
+    - image.style.large
+    - node.type.cursos
+  module:
+    - image
+    - text
+    - user
+id: node.cursos.default
+targetEntityType: node
+bundle: cursos
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_imagem_de_destaque:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: large
+      image_link: content
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_requisitos:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
