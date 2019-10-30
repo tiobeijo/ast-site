@@ -12,5 +12,7 @@ describe('redator role test', function() {
       cy.contains('Notícias').click()
       cy.get('input[name="title[0][value]"]').type('test')
       cy.get('input[name="files[field_imagem_de_destaque_0]"]').click()
+      cy.get('input[name="files[field_galeria_de_fotos_0][]"]').click()
+      cy.contains('Salvar').click()
     })
 })
