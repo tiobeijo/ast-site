@@ -11,6 +11,6 @@ describe('redator role test', function() {
       cy.contains('Adicionar conteúdo').click()
       cy.contains('Notícias').click()
       cy.get('input[name="title[0][value]"]').type('test')
-      cy.get('div[id="cke_1_contents"]').type('isso aqui')
+      cy.get('input[name="files[field_imagem_de_destaque_0]"]').click()
     })
 })
