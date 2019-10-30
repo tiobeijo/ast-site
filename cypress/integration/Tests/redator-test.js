@@ -20,5 +20,8 @@ describe('redator role test', function() {
       cy.contains('Salvar').click()
     })
 
-    it('checking Notícias content ')
+    it('checking Notícias content', function() {
+      cy.contains('test')
+      cy.contains("Era uma vez um projeto que deu certo")
+    })
 })
