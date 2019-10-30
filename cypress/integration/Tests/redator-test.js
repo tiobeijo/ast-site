@@ -11,8 +11,14 @@ describe('redator role test', function() {
       cy.contains('Adicionar conteúdo').click()
       cy.contains('Notícias').click()
       cy.get('input[name="title[0][value]"]').type('test')
+      cy.window()
+  .then(win => {
+    win.CKEDITOR.instances["edit-body-0-value"].setData("<p>Era uma vez um projeto que deu certo</p>");
+  });
       cy.get('input[name="files[field_imagem_de_destaque_0]"]').click()
       cy.get('input[name="files[field_galeria_de_fotos_0][]"]').click()
       cy.contains('Salvar').click()
     })
+
+    it('checking Notícias content ')
 })
