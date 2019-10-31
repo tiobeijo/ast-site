@@ -7,13 +7,8 @@ $baseFontSize: 14px;
 $bodyBGColor: #f9f9f9;
 $baseFontColor: #435a6b;
 
-<<<<<<< HEAD
 $linkColor: #006400;
 $linkColorHover: #006400;
-=======
-$linkColor: #ff0000;
-$linkColorHover: #ff0000;
->>>>>>> ast theme created based on symphony theme
 
 /*Header*/
 $headerBGColor: #000;
@@ -33,11 +28,7 @@ $borderColor: #e8e8e8;
 /*Mixins*/
 
 @mixin globalButton(){
-<<<<<<< HEAD
 	background: #FF0000;
-=======
-	background: $linkColor;
->>>>>>> ast theme created based on symphony theme
 	cursor: pointer;
 	color: #fff;
 	border: 0;
@@ -45,11 +36,7 @@ $borderColor: #e8e8e8;
 	line-height: 100%;
 	margin-right: 2px;
 	display: inline-block;
-<<<<<<< HEAD
 	border: 3px solid #FF0000;
-=======
-	border: 3px solid $linkColor;
->>>>>>> ast theme created based on symphony theme
 	@include border-radius(30px);
 	@include transition(all 0.3s);
 }
