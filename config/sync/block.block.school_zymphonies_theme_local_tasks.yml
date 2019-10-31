@@ -1,0 +1,22 @@
+uuid: 8c090737-925d-445b-a2ee-74c67fd81ebd
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - school_zymphonies_theme
+_core:
+  default_config_hash: 7AhU9MHwy81tlmiWr-PWXL07zfA5Ye9OvWgeAKh9A6o
+id: school_zymphonies_theme_local_tasks
+theme: school_zymphonies_theme
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 5a6553a3-d08f-49e9-bd9f-60c9da712bc3
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - school_zymphonies_theme
+_core:
+  default_config_hash: 1an0jsVfLfzpBqivytsSxpFEKfgsgqAyS1e51LTFhF8
+id: school_zymphonies_theme_page_title
+theme: school_zymphonies_theme
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

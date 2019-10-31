@@ -1,0 +1,22 @@
+uuid: 2fb629bc-6479-4976-bc37-c78dccd7b3b7
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ast_theme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: ast_theme_breadcrumbs
+theme: ast_theme
+region: content
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
