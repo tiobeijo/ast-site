@@ -1,0 +1,22 @@
+uuid: 88cb919c-ee2a-42de-b0bb-1e2534f45635
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - school_zymphonies_theme
+_core:
+  default_config_hash: 9pa90Y-87MRR9imFJeZGlf8nEOMbdUJbsTl_EhgRb9U
+id: school_zymphonies_theme_powered
+theme: school_zymphonies_theme
+region: auto_hidden_block
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

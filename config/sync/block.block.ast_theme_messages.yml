@@ -1,0 +1,22 @@
+uuid: 0c17068f-d719-4c1d-b794-b74cf6ee8197
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ast_theme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: ast_theme_messages
+theme: ast_theme
+region: content
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensagens de status'
+  provider: system
+  label_display: '0'
+visibility: {  }
