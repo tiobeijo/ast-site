@@ -17,9 +17,7 @@ describe('redator role test', function() {
   });
       cy.get('input[name="files[field_imagem_de_destaque_0]"]').click()
       cy.fixture('images/forest.jpg').then(fileContent => {
-        cy.get('[data-cy="dropzone"]').upload(
-          { fileContent, 'forest.jpg' : mimeType, 'application/json':""
-          });
+        cy.get('[data-cy="Choose file"]').upload({ fileContent, images, mimeType: 'application/json' });
       });
       cy.get('input[name="files[field_galeria_de_fotos_0][]"]').click()
       cy.contains('Salvar').click()
