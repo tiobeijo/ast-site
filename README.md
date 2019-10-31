@@ -22,3 +22,8 @@ https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-re
 10 - Após finalizada a instalação, utilize o comando "ctrl + d" para sair do make shell.
 11 - Digite "make prune && make up" no terminal. Isso irá "desligar" o site e "liga-lo" novamente com as novas configurações.
 12 - Acesse o link utilizado para os testes na máquina em seu navegador e faça a isntalação do site.
+
+## Como fazer modificações no tema
+
+1- No terminal, entre na pasta do tema e rode o comando compass watch (caso não tenha o instalado, e necessário que o instale), que vai acompanhar as modificações feitas e fazer a comunicação com o site.
+2- No terminal, rode o comando make shell, cd web e dentro dessa pasta rode o comando drush cr a cada modificação feita no tema para ver o resultado na interface.
