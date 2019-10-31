@@ -7,8 +7,8 @@ $baseFontSize: 14px;
 $bodyBGColor: #f9f9f9;
 $baseFontColor: #435a6b;
 
-$linkColor: #ff0000;
-$linkColorHover: #ff0000;
+$linkColor: #006400;
+$linkColorHover: #006400;
 
 /*Header*/
 $headerBGColor: #000;
@@ -28,7 +28,7 @@ $borderColor: #e8e8e8;
 /*Mixins*/
 
 @mixin globalButton(){
-	background: $linkColor;
+	background: #FF0000;
 	cursor: pointer;
 	color: #fff;
 	border: 0;
@@ -36,7 +36,7 @@ $borderColor: #e8e8e8;
 	line-height: 100%;
 	margin-right: 2px;
 	display: inline-block;
-	border: 3px solid $linkColor;
+	border: 3px solid #FF0000;
 	@include border-radius(30px);
 	@include transition(all 0.3s);
 }
