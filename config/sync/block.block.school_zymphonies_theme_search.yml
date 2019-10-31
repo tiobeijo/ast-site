@@ -1,0 +1,22 @@
+uuid: b979e07f-b31f-47eb-b22f-5e4ca9156ce7
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - school_zymphonies_theme
+_core:
+  default_config_hash: N3zLRDUcJ3aJF47NzeD3AHWFzLUxCAlIrWId4XpR93A
+id: school_zymphonies_theme_search
+theme: school_zymphonies_theme
+region: search
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

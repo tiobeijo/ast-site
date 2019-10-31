@@ -1,0 +1,20 @@
+uuid: 0375e76a-fffe-4571-b519-76c370a7dae7
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - school_zymphonies_theme
+_core:
+  default_config_hash: Q-7GNXwxvPuzix0Wt5JnOeNV6nbjYER0zVq4KmMjDEU
+id: school_zymphonies_theme_local_actions
+theme: school_zymphonies_theme
+region: auto_hidden_block
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

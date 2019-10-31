@@ -1,0 +1,20 @@
+uuid: d57b5dd5-809f-44f6-8e44-a0a9128be73b
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - ast_theme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: ast_theme_page_title
+theme: ast_theme
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título da página'
+  provider: core
+  label_display: '0'
+visibility: {  }

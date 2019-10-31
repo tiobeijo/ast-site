@@ -1,0 +1,22 @@
+uuid: 3dab6ccc-6e03-4efd-ac3d-cf74973aefbd
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ast_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: ast_theme_help
+theme: ast_theme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ajuda
+  provider: help
+  label_display: '0'
+visibility: {  }

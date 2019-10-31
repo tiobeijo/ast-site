@@ -1,0 +1,22 @@
+uuid: b173107a-c282-45e5-bb78-171b65e2689a
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - school_zymphonies_theme
+_core:
+  default_config_hash: wckGS8ViLc--Bc4BFWBoVpNAsN64JrbkEFuL56Yn3bY
+id: school_zymphonies_theme_help
+theme: school_zymphonies_theme
+region: highlighted
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
