@@ -38,3 +38,9 @@ docker-compose.override.yml
 
 # Ignore log
 *.log
+
+# Ignore .sass-cache
+.sass-cache/*
+
+# Ignore css
+css/*
