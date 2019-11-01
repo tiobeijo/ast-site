@@ -130,6 +130,8 @@
 		&:hover{
 			background-color: #FF0000;
 			border-color: #FF0000;
+			background-color: $linkColorHover;
+			border-color: $linkColorHover;
 		}
 	}
 
