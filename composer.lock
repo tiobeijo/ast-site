@@ -4,15 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
     "content-hash": "8176ceb4d3494f9d3dfae63f296fb9d7",
-=======
     "content-hash": "58a9d868b4b87e3d91e479951a8aa285",
->>>>>>> ast theme created based on symphony theme
-=======
     "content-hash": "58a9d868b4b87e3d91e479951a8aa285",
->>>>>>> ast theme created based on symphony theme
     "packages": [
         {
             "name": "alchemy/zippy",

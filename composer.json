@@ -20,7 +20,6 @@
     "composer/installers": "^1.2",
     "cweagans/composer-patches": "^1.6.5",
     "drupal-composer/drupal-scaffold": "^2.5",
-<<<<<<< HEAD
     "drupal/config_partial_export": "^1.4",
     "drupal/config_split": "^1.4",
     "drupal/console": "~1.0",
@@ -28,13 +27,11 @@
     "drupal/graphql": "^4.0@alpha",
     "drupal/school_zymphonies_theme": "^1.1",
     "drupal/pathauto": "^1.5",
-=======
     "drupal/config_split": "^1.4",
     "drupal/console": "~1.0",
     "drupal/core": "^8.7.0",
     "drupal/graphql": "^4.0@alpha",
     "drupal/school_zymphonies_theme": "^1.1",
->>>>>>> zymphonie theme installed
     "drush/drush": "^9.0.0",
     "vlucas/phpdotenv": "^2.4",
     "webflo/drupal-finder": "^1.0.0",
