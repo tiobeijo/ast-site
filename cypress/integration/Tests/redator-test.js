@@ -15,9 +15,12 @@ describe('redator role test', function() {
   .then(win => {
     win.CKEDITOR.instances["edit-body-0-value"].setData("<p>Era uma vez um projeto que deu certo</p>");
   });
-      cy.get('input[name="files[field_imagem_de_destaque_0]"]').click()
-      cy.fixture('images/forest.jpg').then(fileContent => {
-        cy.get('[data-cy="Choose file"]').upload({ fileContent, images, mimeType: 'application/json' });
+
+      const imagePath = 'images/forest.jpg';
+
+      cy.fixture(imagePath).then(fileContent => {
+        //console.log(fileContent);
+        cy.get('[name="files[field_imagem_de_destaque_0]"]').upload({fileContent, fileName: 'forest.jpg', contentType: 'application/jpg' });
       });
       cy.get('input[name="files[field_galeria_de_fotos_0][]"]').click()
       cy.contains('Salvar').click()
