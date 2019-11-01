@@ -34,8 +34,28 @@ describe("Color test", () => {
 describe("Color test", () => {
   it('Verify the letters color, this should work', () => {
     cy.visit('ast.docker.local')
+<<<<<<< HEAD
      cy.get('a')
        .should('have.css', 'background-color')
        .and('eq', 'rgba(0, 0, 0, 0)')
+=======
+     cy.contains('Entrar')
+       .should('have.css', 'color')
+       .and('eq', 'rgb(0, 100, 0)')   
+ })
+
+  it('Verify the letters color, this should work', () => {
+   cy.visit('ast.docker.local')
+    cy.contains('Contato')
+      .should('have.css', 'color')
+      .and('eq', 'rgb(0, 100, 0)')   
+ })
+
+  it('Verify the letters color, this should work', () => {
+   cy.visit('ast.docker.local')
+    cy.contains('User Guide')
+      .should('have.css', 'color')
+      .and('eq', 'rgb(0, 100, 0)')   
+>>>>>>> appearance test modified
  })
 }) 
