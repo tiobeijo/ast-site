@@ -18,11 +18,18 @@ describe('redator role test', function() {
 
       const imagePath = 'images/forest.jpg';
 
-      cy.fixture(imagePath).then(fileContent => {
+      cy.fixture(imagePath).then(content => {
         //console.log(fileContent);
-        cy.get('[name="files[field_imagem_de_destaque_0]"]').upload({fileContent, fileName: 'forest.jpg', contentType: 'application/jpg' });
+        cy.get('[name="files[field_featured_image_0]"]').upload([{fileContent: content, fileName: 'forest.jpg', mimeType: 'image/JPEG' }]);
       });
-      cy.get('input[name="files[field_galeria_de_fotos_0][]"]').click()
+
+      const galleryPath = 'images/witch.jpg';
+
+      cy.fixture(galleryPath).then(content => {
+        //console.log(fileContent);
+        cy.get('[name="files[field_photo_gallery_0][]"]').upload([{fileContent: content, fileName: 'witch.jpg', mimeType: 'image/JPEG' }]);
+      });
+
       cy.contains('Salvar').click()
     })
 
