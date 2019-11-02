@@ -13,21 +13,28 @@ describe('redator role test', function() {
       cy.get('input[name="title[0][value]"]').type('test')
       cy.window()
   .then(win => {
-    win.CKEDITOR.instances["edit-body-0-value"].setData("<p>Era uma vez um projeto que deu certo</p>");
+    win.CKEDITOR.instances["edit-body-0-value"]
+    .setData("<p>Era uma vez um projeto que deu certo</p>");
   });
 
       const imagePath = 'images/forest.jpg';
 
       cy.fixture(imagePath).then(content => {
         //console.log(fileContent);
-        cy.get('[name="files[field_featured_image_0]"]').upload([{fileContent: content, fileName: 'forest.jpg', mimeType: 'image/JPEG' }]);
+        cy.get('[name="files[field_featured_image_0]"]')
+        .upload([
+            {fileContent: content, fileName: 'forest.jpg', mimeType: 'image/JPEG'}
+          ]);
       });
 
       const galleryPath = 'images/witch.jpg';
 
       cy.fixture(galleryPath).then(content => {
         //console.log(fileContent);
-        cy.get('[name="files[field_photo_gallery_0][]"]').upload([{fileContent: content, fileName: 'witch.jpg', mimeType: 'image/JPEG' }]);
+        cy.get('[name="files[field_photo_gallery_0][]"]')
+        .upload([
+          {fileContent: content, fileName: 'witch.jpg', mimeType: 'image/JPEG' }
+        ]);
       });
 
       cy.contains('Salvar').click()
