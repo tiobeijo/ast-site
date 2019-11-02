@@ -1,0 +1,38 @@
+uuid: d6c927d3-69cd-4dba-b303-5d1d74dff103
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photo_gallery
+    - node.type.news
+  module:
+    - image
+id: node.news.field_photo_gallery
+field_name: field_photo_gallery
+entity_type: node
+bundle: news
+label: 'Galeria de Fotos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: 4MB
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image
