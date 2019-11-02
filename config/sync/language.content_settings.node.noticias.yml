@@ -1,11 +1,1 @@
-uuid: e3f3c7ab-6cbb-4d9c-b6f7-b2aad7113207
-langcode: pt-br
-status: true
-dependencies:
-  config:
-    - node.type.noticias
-id: node.noticias
-target_entity_type_id: node
-target_bundle: noticias
-default_langcode: site_default
-language_alterable: false
+{  }
