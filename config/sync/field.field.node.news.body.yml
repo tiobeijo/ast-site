@@ -1,4 +1,4 @@
-uuid: 0c7270bb-666f-43b1-a510-cd4f0095145c
+uuid: 451b4d59-8c45-4499-a106-aa5b01fff33c
 langcode: pt-br
 status: true
 dependencies:
@@ -11,7 +11,7 @@ id: node.news.body
 field_name: body
 entity_type: node
 bundle: news
-label: 'Campo de Texto'
+label: Body
 description: ''
 required: false
 translatable: true

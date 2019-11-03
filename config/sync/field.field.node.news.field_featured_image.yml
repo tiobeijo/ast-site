@@ -1,4 +1,4 @@
-uuid: af30c629-2162-4cfc-8bfb-aa2094a1ec9d
+uuid: 3769157f-6554-494c-939d-46bf8021d310
 langcode: pt-br
 status: true
 dependencies:
@@ -11,7 +11,7 @@ id: node.news.field_featured_image
 field_name: field_featured_image
 entity_type: node
 bundle: news
-label: 'Imagem de Destaque'
+label: 'Imagem de destaque'
 description: ''
 required: false
 translatable: false
