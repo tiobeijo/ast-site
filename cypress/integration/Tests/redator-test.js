@@ -16,13 +16,12 @@ describe('redator role test', function() {
     win.CKEDITOR.instances["edit-body-0-value"]
     .setData("<p>Era uma vez um projeto que deu certo</p>");
   });
+  cy.wait(2000);
 
       const imagePath = 'images/forest.jpg';
 
       cy.fixture(imagePath).then(content => {
-        cy.get('[name="files[field_featured_image_0]"]')
-        .upload([
-            {fileContent: content, fileName: 'forest.jpg', mimeType: 'image/JPEG'}
+        cy.get('[name="files[field_featured_image_0]"]').upload([{fileContent: content, fileName: 'forest.jpg', mimeType: 'image/JPEG'}
           ]);
       });
 
@@ -43,6 +42,7 @@ describe('redator role test', function() {
     })
 
     it('checking Notícias content', function() {
+
       cy.contains('test')
       cy.contains("Era uma vez um projeto que deu certo")
     })
