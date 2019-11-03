@@ -1,4 +1,4 @@
-uuid: d6c927d3-69cd-4dba-b303-5d1d74dff103
+uuid: befa1b4b-524b-44d1-91ce-712f50c4ffa8
 langcode: pt-br
 status: true
 dependencies:
@@ -11,7 +11,7 @@ id: node.news.field_photo_gallery
 field_name: field_photo_gallery
 entity_type: node
 bundle: news
-label: 'Galeria de Fotos'
+label: 'Galeria de fotos'
 description: ''
 required: false
 translatable: false

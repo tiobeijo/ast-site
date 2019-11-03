@@ -1,4 +1,4 @@
-uuid: 1238a17d-796e-4f12-812c-313bdc6fb0c7
+uuid: 7bf1fc59-0e7f-4707-ad0b-05fbbf7bff49
 langcode: pt-br
 status: true
 dependencies:
@@ -11,9 +11,8 @@ field_name: field_featured_image
 entity_type: node
 type: image
 settings:
-  uri_scheme: public
   default_image:
-    uuid: ''
+    uuid: null
     alt: ''
     title: ''
     width: null
@@ -21,6 +20,7 @@ settings:
   target_type: file
   display_field: false
   display_default: false
+  uri_scheme: public
 module: image
 locked: false
 cardinality: 1
