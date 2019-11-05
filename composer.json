@@ -32,12 +32,15 @@
 =======
 =======
     "drupal/config_split": "^1.4",
+<<<<<<< HEAD
     "drupal/console": "~1.0",
     "drupal/core": "^8.7.0",
     "drupal/graphql": "^4.0@alpha",
     "drupal/school_zymphonies_theme": "^1.1",
 >>>>>>> zymphonie theme installed
 >>>>>>> zymphonie theme installed
+=======
+>>>>>>> duplicate lines deleted in composer.json file
     "drush/drush": "^9.0.0",
     "vlucas/phpdotenv": "^2.4",
     "webflo/drupal-finder": "^1.0.0",
