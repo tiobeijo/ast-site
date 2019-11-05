@@ -1,0 +1,22 @@
+uuid: 1bb4ba90-725c-4149-b94b-91655a5c7d29
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.parceiro
+  module:
+    - text
+id: node.parceiro.body
+field_name: body
+entity_type: node
+bundle: parceiro
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
