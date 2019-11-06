@@ -1,4 +1,4 @@
-uuid: a62ca9b2-0179-4e43-82ed-638e98162cf8
+uuid: d248852b-59c6-4f09-b321-483c13d8850d
 langcode: pt-br
 status: true
 dependencies:
@@ -11,8 +11,9 @@ field_name: field_partner_logo
 entity_type: node
 type: image
 settings:
+  uri_scheme: public
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null
@@ -20,7 +21,6 @@ settings:
   target_type: file
   display_field: false
   display_default: false
-  uri_scheme: public
 module: image
 locked: false
 cardinality: 1
