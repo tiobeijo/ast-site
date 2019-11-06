@@ -1,0 +1,23 @@
+uuid: 96f07c87-ed92-4df4-ad08-684414fda83f
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reference_site
+    - node.type.partner
+  module:
+    - link
+id: node.partner.field_reference_site
+field_name: field_reference_site
+entity_type: node
+bundle: partner
+label: 'Site de referência '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

@@ -1,11 +1,1 @@
-uuid: 9fbb5c3d-c04a-404d-959c-c25e38861e33
-langcode: pt-br
-status: true
-dependencies:
-  config:
-    - node.type.parceiro
-id: node.parceiro
-target_entity_type_id: node
-target_bundle: parceiro
-default_langcode: site_default
-language_alterable: false
+{  }
