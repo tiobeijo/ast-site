@@ -2,12 +2,13 @@ describe('basic page criation test', function() {
   it('Visit Ast site', function() {
     cy.visit('ast.docker.local')
   }) 
-  it('logging in as a Redator and creating Programação WEB content', function() {
+  it('logging in as a coordenador and creating Programação WEB content', function() {
     cy.contains('Entrar').click()
-    cy.get('input[name="name"]').type('Redator')
+    cy.get('input[name="name"]').type('coordenador')
     cy.get('input[name="pass"]').type('asteste21')
     cy.get('input[name="op"]').click()
     cy.contains('Adicionar conteúdo').click()
+    cy.contains('Cursos').click()
     cy.get('input[name="title[0][value]"]').type('Programação WEB')
     cy.window()
     .then(win => {
