@@ -36,6 +36,6 @@ https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-re
 
 ## Como fazer modificações no tema
 
-1- No terminal, entre na pasta do tema e rode o comando compass watch (caso não tenha o instalado, e necessário que o instale), que vai acompanhar as modificações feitas e fazer a comunicação com o site.
+1- No terminal, entre na pasta do tema(ast-site/web/themes/custom/ast_theme/sass) e rode o comando compass watch (caso não tenha o instalado, e necessário que o instale), que vai acompanhar as modificações feitas e fazer a comunicação com o site.
 
 2- No terminal, rode o comando make shell, cd web e dentro dessa pasta rode o comando drush cr a cada modificação feita no tema para ver o resultado na interface.
