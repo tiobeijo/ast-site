@@ -1,6 +1,3 @@
-import chaiColors from 'chai-colors'
-chai.use(chaiColors)
-
 describe("Color test", () => {
     it('Verify the backgroud color, this should work', () => {
        cy.visit('ast.docker.local')
