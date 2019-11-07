@@ -4,11 +4,11 @@ describe('redator role test', function() {
     })
 
     it('logging in as a Redator and creating Parceiro content', function() {
-      cy.contains('Log in').click()
-      cy.get('input[name="name"]').type('redator01')
-      cy.get('input[name="pass"]').type('redatorpass')
+      cy.contains('Entrar').click()
+      cy.get('input[name="name"]').type('Redator')
+      cy.get('input[name="pass"]').type('asteste21')
       cy.get('input[name="op"]').click()
-      cy.contains('Conteúdo').click()
+      cy.contains('Adicionar conteúdo').click()
       cy.visit('ast.docker.local/node/add')
       cy.contains('Parceiro').click()
       cy.get('input[name="title[0][value]"]').type('Ralph Lauren')
@@ -30,7 +30,7 @@ describe('redator role test', function() {
 
       cy.wait(2000);
 
-      cy.contains('Save').click()
+      cy.contains('Salvar').click()
     })
 
     it('checking Parceiros content', function() {
