@@ -1,0 +1,46 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a view template to display a list of rows.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the container.
+ * - rows: A list of rows for this list.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's contents.
+ * - title: The title of this group of rows. May be empty.
+ * - list: @todo.
+ *   - type: Starting tag will be either a ul or ol.
+ *   - attributes: HTML attributes for the list element.
+ *
+ * @see template_preprocess_views_view_list()
+ *
+ * @ingroup themeable
+ */
+#}
+
+{% if attributes -%}
+  <div{{ attributes }}>
+{% endif %}
+  {% if title %}
+    <h3>{{ title }}</h3>
+  {% endif %}
+
+  <{{ list.type }} {{ list.attributes }} {{ list.type == 'ul' ? 'class="arrow_list"' : ''}} >
+
+    {% for row in rows %}
+      '<li>
+      <img src="' . $path . '" alt="Slider Banner" />
+      <div class="slider-caption">
+        <h2 class="slider-title">' . theme_get_setting('slide_title_' . $i, 'school_zymphonies_theme').'</h2>
+        <div class="clearfix"><p class="slider-description">' . theme_get_setting('slide_description_' . $i, 'school_zymphonies_theme').'</p></div>
+        <a href=' . theme_get_setting('slide_url_' . $i, 'school_zymphonies_theme') . ' class="more-link">Read more</a>
+      </div>
+    </li>';
+    {% endfor %}
+
+  </{{ list.type }}>
+
+{% if attributes -%}
+  </div>
+{% endif %}
