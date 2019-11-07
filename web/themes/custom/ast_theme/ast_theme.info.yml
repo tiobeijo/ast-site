@@ -1,12 +1,12 @@
-name: ast_theme
+name: AST Theme
 type: theme
-description: 'My Awesome theme'
+description: 'The to ast.org.br'
 package: ast
 core: 8.x
+base theme: school_zymphonies_theme
+
 libraries:
   - ast_theme/global-styling
- 
-base theme: school_zymphonies_theme
 
 regions:
   content: Content

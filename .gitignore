@@ -9,6 +9,7 @@
 
 # Ignore Node modules
 node_modules
+.sass-cache
 
 # Ignore sensitive information
 /web/sites/*/settings.php
@@ -43,4 +44,4 @@ docker-compose.override.yml
 .sass-cache/*
 
 # Ignore css
-css/*
+*.css
