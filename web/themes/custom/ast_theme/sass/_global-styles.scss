@@ -1,0 +1,21 @@
+.social-media{	
+	a {
+		&:hover{
+			color: $linkColorHover;
+		}
+	}
+} 
+
+.btn, 
+.node-readmore a,
+.flexslider .more-link,
+input[type="submit"]{
+ 	@include globalButton();
+}
+
+.btn:hover, 
+.node-readmore a:hover,
+.flexslider .more-link:hover,
+input[type="submit"]:hover{
+	@include globalButtonHover();
+}

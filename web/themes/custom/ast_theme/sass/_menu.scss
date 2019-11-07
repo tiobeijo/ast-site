@@ -1,0 +1,15 @@
+.menu-base-theme{
+
+	li{
+
+		a{
+
+			&:hover, 
+			&:focus, 
+			&:active, 
+			&.highlighted{
+				color: $menuTextActiveColor;
+			}
+		} 
+	}
+}
