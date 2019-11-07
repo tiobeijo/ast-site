@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.news.body
     - field.field.node.news.field_featured_image
+    - field.field.node.news.field_featured_in_home
     - field.field.node.news.field_photo_gallery
     - image.style.large
     - node.type.news
@@ -20,12 +21,12 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 2
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     region: content
   field_featured_image:
-    weight: 1
+    weight: 2
     label: hidden
     settings:
       image_style: large
@@ -33,8 +34,18 @@ content:
     third_party_settings: {  }
     type: image
     region: content
+  field_featured_in_home:
+    weight: 1
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
   field_photo_gallery:
-    weight: 3
+    weight: 4
     label: above
     settings:
       image_style: large

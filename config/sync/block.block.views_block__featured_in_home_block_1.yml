@@ -1,0 +1,30 @@
+uuid: b7e5b20c-7579-4388-8bf0-48eecedd6329
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - views.view.featured_in_home
+  module:
+    - system
+    - views
+  theme:
+    - ast_theme
+id: views_block__featured_in_home_block_1
+theme: ast_theme
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:featured_in_home-block_1'
+settings:
+  id: 'views_block:featured_in_home-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
