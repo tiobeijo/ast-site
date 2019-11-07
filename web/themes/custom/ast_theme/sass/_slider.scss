@@ -1,34 +1,11 @@
-
-/*Flexslider*/
-
+.flexslider {
 	.slider-caption{
-		display: none;
-	    position: absolute;
-	    top: 30%;
-	    left: 5%;
-	    z-index: 99;
-	    width: 35%;
-	    text-align: left;
-	    font-size: 1.2em;
-	    line-height: 150%;
-	    color: #fff;
-	    padding: 20px;
 	    background: rgba(30, 143, 255, 0.603);
-	    background: rgb(101, 183, 238);
-	    @include border-radius(5px);
 	}
 
 	.flex-control-paging li a {
-	    width: 8px;
-	    height: 8px;
-	    display: block;
-	    background: #fff;
-	    cursor: pointer;
-	    text-indent: -9999px;
-	    @include border-radius(50%);
-
 	    &.flex-active{
-			background: #FF0000;
 			background: #FF0000;
 	    }
 	}
+}

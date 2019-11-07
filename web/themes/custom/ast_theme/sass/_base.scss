@@ -1,0 +1,16 @@
+/*TABS*/
+
+.tabs a.is-active {
+   background-color: $linkColor;
+}
+  
+.tabs a:focus,
+.tabs a:hover {
+   background-color: $linkColorHover;
+} 
+
+/**
+ * Responsive tables.
+ */
+ @media screen and (max-width: 37.5em) { }
+ @media screen and (max-width: 60em) { }

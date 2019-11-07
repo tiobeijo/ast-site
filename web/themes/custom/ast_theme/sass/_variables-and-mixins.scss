@@ -8,9 +8,20 @@ $linkColorHover: #006400;
 
 $secColor: #000000;
 
+/*Menu Color*/
+$menuTextColor: $linkColor;
+$menuTextActiveColor: $linkColor;
+
+$desktopMenuDropDownBg: $linkColor;
+
 /*Mixins*/
 
 @mixin globalButton(){
 	background: #FF0000;
 	border: 3px solid #FF0000;
+}
+
+@mixin globalButtonHover(){
+	border: 3px solid #FF0000;
+    color: #FF0000;
 }
