@@ -37,5 +37,8 @@ describe('Partners content test', function() {
 
       cy.contains('Ralph Lauren')
       cy.contains("A Ralph Lauren Corporation é uma empresa de moda americana que produz produtos que variam desde os segmentos intermediário até o de luxo. Eles são conhecidos pelo vestuário, marketing e distribuição de produtos em quatro categorias: vestuário, casa, acessórios e fragrâncias.")
+
+      cy.get('[data-drupal-link-system-path="user/logout"]').click()
+
     })
 })

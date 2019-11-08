@@ -1,6 +1,6 @@
 describe('redator role test', function() {
     it('Visit Ast site', function() {
-        cy.visit('ast.docker.local')
+        cy.visit('http://ast.docker.local/')
     })
 
     it('logging in as a Redator and creating Notícias content', function() {
@@ -45,5 +45,8 @@ describe('redator role test', function() {
 
       cy.contains('test')
       cy.contains("Era uma vez um projeto que deu certo")
+
+      cy.get('[data-drupal-link-system-path="user/logout"]').click()
+
     })
 })
