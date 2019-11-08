@@ -1,6 +1,6 @@
 describe('redator role test', function() {
     it('Visit Ast site', function() {
-        cy.visit('http://ast.docker.local/')
+        cy.visit('ast.docker.local')
     })
 
     it('logging in as a Redator and creating Notícias content', function() {
