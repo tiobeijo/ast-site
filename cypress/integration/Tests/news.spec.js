@@ -4,11 +4,11 @@ describe('redator role test', function() {
     })
 
     it('logging in as a Redator and creating Notícias content', function() {
-      cy.contains('Entrar').click()
+      cy.get('[data-drupal-link-system-path="user/login"]').click()
       cy.get('input[name="name"]').type('Redator')
       cy.get('input[name="pass"]').type('asteste21')
       cy.get('input[name="op"]').click()
-      cy.contains('Adicionar conteúdo').click()
+      cy.get('[data-drupal-link-system-path="node/add"]').click()
       cy.contains('Notícias').click()
       cy.get('input[name="title[0][value]"]').type('test')
       cy.window()
@@ -38,7 +38,7 @@ describe('redator role test', function() {
 
       cy.wait(2000);
 
-      cy.contains('Salvar').click()
+      cy.contains('Save').click()
     })
 
     it('checking Notícias content', function() {
