@@ -33,11 +33,4 @@ describe("Color test", () => {
       .should('have.css', 'color')
       .and('eq', 'rgb(0, 100, 0)')   
  })
-
-  it('Verify the letters color, this should work', () => {
-   cy.visit('ast.docker.local')
-    cy.contains('User Guide')
-      .should('have.css', 'color')
-      .and('eq', 'rgb(0, 100, 0)')   
- })
 }) 
