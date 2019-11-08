@@ -12,7 +12,6 @@ permissions:
   - 'change own username'
   - 'create article content'
   - 'create news content'
-  - 'create noticias content'
   - 'create page content'
   - 'create partner content'
   - 'create url aliases'
