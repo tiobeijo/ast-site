@@ -1,5 +1,5 @@
-describe('redator role test', function() {
-    it('Visit Ast site', function() {
+describe('Partners content test', function() {
+    it('Partner content signup', function() {
         cy.visit('ast.docker.local')
     })
 
