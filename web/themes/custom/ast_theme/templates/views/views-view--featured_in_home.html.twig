@@ -18,7 +18,18 @@
  * @ingroup themeable
  */
 #}
+{#
 
+  <div class="container">
+    <div class="flexslider">
+      <ul class="slides">
+        {% for slider_contents in slider_content %}
+          {{ slider_contents | raw }}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+#}
 {% if attributes -%}
   <div{{ attributes }}>
 {% endif %}
@@ -29,7 +40,7 @@
   <{{ list.type }} {{ list.attributes }} {{ list.type == 'ul' ? 'class="arrow_list"' : ''}} >
 
     {% for row in rows %}
-      '<li>
+    <li>
       <img src="' . $path . '" alt="Slider Banner" />
       <div class="slider-caption">
         <h2 class="slider-title">' . theme_get_setting('slide_title_' . $i, 'school_zymphonies_theme').'</h2>
