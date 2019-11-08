@@ -8,5 +8,7 @@ describe('Ast login test', function() {
 
         cy.get('input[name="op"]').click()
 
+        cy.get('[data-drupal-link-system-path="user/logout"]').click()
+
     })
 })
