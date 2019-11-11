@@ -1,0 +1,14 @@
+uuid: 938671cd-de48-4eb2-b443-65b1bbcd992f
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - user.role.coordinator
+  module:
+    - user
+id: user_add_role_action.coordinator
+label: 'Add the Coordenador role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: coordinator
