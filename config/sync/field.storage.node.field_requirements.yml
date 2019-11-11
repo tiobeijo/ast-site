@@ -1,0 +1,20 @@
+uuid: 9f04c46d-4aa1-4cdc-94f8-3b23990c5863
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_requirements
+field_name: field_requirements
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

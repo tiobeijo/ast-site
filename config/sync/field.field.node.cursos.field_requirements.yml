@@ -1,0 +1,21 @@
+uuid: 5e4dd894-30fb-43c5-b768-5e86357a2c46
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_requirements
+    - node.type.cursos
+  module:
+    - text
+id: node.cursos.field_requirements
+field_name: field_requirements
+entity_type: node
+bundle: cursos
+label: Requisitos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
