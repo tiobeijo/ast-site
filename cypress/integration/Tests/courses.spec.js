@@ -1,4 +1,4 @@
-describe(Coordinator role and courses content type test', function() {
+describe('Coordinator role and courses content type test', function() {
     it('Visit Ast site', function() {
         cy.visit('ast.docker.local')
     })
