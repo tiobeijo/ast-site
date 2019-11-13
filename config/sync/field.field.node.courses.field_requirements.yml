@@ -1,0 +1,21 @@
+uuid: 91675a9e-f68b-4e89-a09f-ab0e5b7a892f
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_requirements
+    - node.type.courses
+  module:
+    - text
+id: node.courses.field_requirements
+field_name: field_requirements
+entity_type: node
+bundle: courses
+label: Requisitos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
