@@ -1,0 +1,38 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a view template to display a list of rows.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the container.
+ * - rows: A list of rows for this list.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's contents.
+ * - title: The title of this group of rows. May be empty.
+ * - list: @todo.
+ *   - type: Starting tag will be either a ul or ol.
+ *   - attributes: HTML attributes for the list element.
+ *
+ * @see template_preprocess_views_view_list()
+ *
+ * @ingroup themeable
+ */
+#}
+
+<div class="container">
+  <div class="flexslider">
+    <ul class="slides arrow_list">
+    {% for row in rows %}
+      <li>
+        <img src="http://ast.docker.local/themes/contrib/school_zymphonies_theme/images/slider/slide_01.jpg" alt="Variveis da foto aqui" />
+        <div class="slider-caption">
+          <h2 class="slider-title">Inserir a variavel de título aqui</h2>
+          <div class="clearfix"><p class="slider-description">Inserir as variável de descrição aqui</p></div>
+          <a href='https://google.com' class="more-link">Leia mais</a>
+        </div>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+
